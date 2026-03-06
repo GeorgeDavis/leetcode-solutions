@@ -15,18 +15,22 @@ func main() {
 	// result := groupAnagrams(strs)
 	// fmt.Println("result:", result)
 
-	elements := []int{1, 2, 2, 3, 3, 3}
-	// elements := []int{1,1,1,2,2,3}
-	k := 2
-	result := topKFrequent(elements, k)
+	// elements := []int{1, 2, 2, 3, 3, 3}
+	// // elements := []int{1,1,1,2,2,3}
+	// k := 2
+	// result := topKFrequent(elements, k)
+	// fmt.Printf("result: %v\n", result)
+
+	elements := []int{1, 2, 4, 6}
+	result := productExceptSelf(elements)
 	fmt.Printf("result: %v\n", result)
 
-	var s []string
-	s = append(s, "a")
-	if s == nil {
-		fmt.Println("s == nil")
-	} else {
-		fmt.Println("s:", s)
-	}
+	// var s []string
+	// s = append(s, "a")
+	// if s == nil {
+	// 	fmt.Println("s == nil")
+	// } else {
+	// 	fmt.Println("s:", s)
+	// }
 
 }
