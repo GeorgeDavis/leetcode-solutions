@@ -18,7 +18,7 @@ func productExceptSelf(nums []int) []int {
 
 	// O(n) solution
 	prefix := 1
-	for i := 0; i < len(nums); i++ {
+	for i := range nums {
 		products[i] = prefix
 		prefix *= nums[i]
 	}
